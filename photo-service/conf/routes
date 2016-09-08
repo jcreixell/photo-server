@@ -1,0 +1,5 @@
+GET     /                           controllers.Assets.at(path="/public/", file="index.html")
+POST    /photo/                     controllers.Photos.create
+GET     /photo/:id                  controllers.Photos.show(id: Long)
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

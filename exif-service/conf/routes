@@ -1,0 +1,2 @@
+GET     /exif/:id                  controllers.Exif.show(id: Long)
+
